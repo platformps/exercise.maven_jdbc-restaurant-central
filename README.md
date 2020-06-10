@@ -1,4 +1,4 @@
-# Project Title
+# JDBC Restaurant Central
 
 * **Objective** - To create a basic Restaurant application
 * **Purpose** - To gain familiarity with object orientation and polymorphism
