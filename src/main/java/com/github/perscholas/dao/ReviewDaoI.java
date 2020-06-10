@@ -1,6 +1,7 @@
 package com.github.perscholas.dao;
 
-import com.entity.Review;
+import com.github.perscholas.entity.Review;
+
 import java.util.List;
 
 public interface ReviewDaoI {

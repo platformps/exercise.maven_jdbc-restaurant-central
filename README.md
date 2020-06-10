@@ -1,8 +1,63 @@
-# Perschola Maven Template
-* **Objective** - The purpose of this repository is to create a standard template to clone from when creating new projects.
+# Project Title
 
-## How to use
-* To use this project as template, _clone_ the project into you `~/dev` directory.
-* Upon cloning, open the project in a text editor (VSCode, IntelliJ, SublimeText, Atom, etc.)
-* Ensure that the `artifactId` of the project is changed from `maven-template-project` to a more appropriate project name.
-* Click view the [`README-Sample.md`](./README-Sample.md) to view _how_ a `README` should be structured for a project.
+* **Objective** - To create a basic Restaurant application
+* **Purpose** - To gain familiarity with object orientation and polymorphism
+* **Description**
+    * Ensure that all test cases in `src.test.com.github.perscholas` pass with 100% success rate.
+    1. The relation between Restaurant and Foodtype is Many to Many
+    2. The relation between Restaurant and Review is One to Many
+    3. If needed, add necessary instance variables in the entities to apply above relationship
+    4. You might need junction tables - you don't need to create a Java class for that
+    5. You can add helper methods the the implementations if needed
+    6. Feel free to change method parameters if it's necessary
+    7. Don't forget to reach out to the instructors or fellow classmates for help.
+    8. Happy coding! Thank you!  
+
+
+
+
+## How to Download
+
+#### Part 1 - Forking the Project
+* To _fork_ the project, click the `Fork` button located at the top right of the project.
+
+
+#### Part 2 - Navigating to _forked_ Repository
+* Navigate to your github profile to find the _newly forked repository_.
+* Copy the URL of the project to the clipboard.
+
+#### Part 3 - Cloning _forked_ repository
+* Clone the repository from **your account** into the `~/dev` directory.
+  * if you do not have a `~/dev` directory, make one by executing the following command:
+    * `mkdir ~/dev`
+  * navigate to the `~/dev` directory by executing the following command:
+    * `cd ~/dev`
+  * clone the project by executing the following command:
+    * `git clone https://github.com/${MYUSERNAME}/${NAMEOFPROJECT}`
+
+#### Part 4 - Check Build
+* Ensure that the tests run upon opening the project.
+    * You should see `Tests Failed: ${no_tests} of ${no_tests} tests`
+
+
+
+
+
+
+
+## How to Submit
+
+#### Part 1 -  _Pushing_ local changes to remote repository
+* from a _terminal_ navigate to the root directory of the _cloned_ project.
+* from the root directory of the project, execute the following commands:
+    * add all changes
+      * `git add .`
+    * commit changes to be pushed
+      * `git commit -m 'I have added changes'`
+    * push changes to your repository
+      * `git push -u origin master`
+
+#### Part 2 - Submitting assignment
+* from the browser, navigate to the _forked_ project from **your** github account.
+* click the `Pull Requests` tab.
+* select `New Pull Request`

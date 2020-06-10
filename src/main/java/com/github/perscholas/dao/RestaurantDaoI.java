@@ -1,7 +1,8 @@
 package com.github.perscholas.dao;
 
-import com.entity.Foodtype;
-import com.entity.Restaurant;
+import com.github.perscholas.entity.Foodtype;
+import com.github.perscholas.entity.Restaurant;
+
 import java.util.List;
 
 public interface RestaurantDaoI {
